@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="Portfolio.css">
+    <script src="https://kit.fontawesome.com/4a24f299f6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="logo.jpg" alt="logo" class="logo">            
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i> 
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header">
+            <p>MCA Fresher</p>
+            <h1>Hi, I'm <span>Sai Baba</span> From INDIA</h1>
+        </div>
+    </div>
+</div>
+<!-- about -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="_V1A1939 copy.jpg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-tittle">About Me</h1>
+                <p>
+                    I am a dedicated MCA fresher with a strong passion for software development. Having recently completed my Masters degree, 
+                    I am eager to apply my theoretical knowledge to real-world projects. My academic background has equipped me with a
+                     solid foundation in computer science, programming languages, and database management.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>HTML</span><br>WebPage Designing</li>
+                        <li><span>CSS</span><br>Applying CSS To Webpages</li>
+                        <li><span>Java Script</span><br>Creating Dynamic Webpages</li>
+                        <li><span>Python</span><br>For Logical Building</li>
+                        <li><span>C/C++</span><br>For Computer Opeartions</li>
+                        <li><span>Java Programming</span><br>For Building Applications</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>2026</span><br>NIL</li>
+                        <li><span>2025</span><br>NIL</li>
+                        <li><span>2024</span><br>Intern At MotionCut</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2025</span><br>Internship</li>
+                        <li><span>2025</span><br>MCA from Aurora PG College</li>
+                        <li><span>2023</span><br>Bsc From Osmainia University</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="services">
+    <div class="container">
+        <h1 class="sub-tittle">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>web desing</h2>
+                <p>A Good Web Designing to make a responsive and good looking user interfaces to 
+                    interact with users and makings websites for Ecommerce websites and For Educational Institutions and also for personal showcase  </p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-python"></i>
+                <h2>Python</h2>
+                <p>Python programming in making Good Logical operations and also for data analysis and for manipulation of data of 
+                    files in a computer system.
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-computer"></i>
+                <h2>C/C++</h2>
+                <p>A Good Experience in Building computer operations like storing data and 
+                    making the usage of Computer processes by making simple logics using c &c++ </p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-java"></i>
+                <h2>java</h2>
+                <p>A good experience in Building Applications based on java programming with the help lo java fx with high user interfaces.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-tittle">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="student-man-holding-book-png.png">
+                <div class="layer">
+                    <h3>My Digital Showcase</h3>
+                    <p>It displays about my Works and Projects and My Experience in Multiple Projects and Companies </p>
+                    <a href="Portfolio.html"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="work-list">
+            <div class="work">
+                <img src="clapper-board-on-transparent-PNG.png">
+                <div class="layer">
+                    <h3>Movie Buff Central</h3>
+                    <p>This displays about a movie series with all the characters and have a fan interaction with quiz and trailers </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="work-list">
+            <div class="work">
+                <img src="—Pngtree—icc cricket world cup figure_6544127.png">
+                <div class="layer">
+                    <h3>Cricket Legends Hub</h3>
+                    <p>This Displays about the cricketers their details and also their Achivements and their strenghts and complete details of them</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>saibabagoud2592@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 9989324942</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/sai__2592/?__pwa=1#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/Saibaba2592/SaiBaba"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/saibabagoud2592/"><i class="fa-brands fa-linkedin"></i></i></a>
+                </div>
+                <a href="SAIBABA-Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn2">submit</button>
+                </form>
+                <span id="msg">
+
+                </span>
+            </div>
+
+        </div>
+    </div><br><br>
+    <div class="copyright">
+        <p>Copyrights of this Personal portfolio are Reserved by Sai
+        </p>
+    </div>
+</div>
+
+<script>
+    var tablinks =document.getElementsByClassName("tab-links");
+    var tabcontents  =document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu")
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzQeO7949shUVam849xPif_pWwtuQdqPmSjeU9Q6AtVEbSb-HE3-Oth3qkXRIu5m-QP/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg= document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent succesfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+
+</body>
+</html>
